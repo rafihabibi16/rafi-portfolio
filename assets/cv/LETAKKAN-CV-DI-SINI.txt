@@ -1,0 +1,3 @@
+Tambahkan file PDF CV dengan nama rafi-ahmad-habibi-cv.pdf.
+Setelah itu, pada js/data.js ubah cvFile dari null menjadi:
+cvFile: 'assets/cv/rafi-ahmad-habibi-cv.pdf'

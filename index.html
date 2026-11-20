@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta name="author" content="Rafi Ahmad Habibi">
+  <meta name="description" content="Portfolio Rafi Ahmad Habibi, mahasiswa Mekatronika dan Kecerdasan Buatan. Proyek machine learning, data analytics, software development, dan mekatronika.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:title" content="Rafi Ahmad Habibi — Portfolio">
+  <meta property="og:description" content="Mahasiswa Mekatronika dan Kecerdasan Buatan. Explore my projects in ML, analytics, and software development.">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Rafi Ahmad Habibi — Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/data.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#konten-utama">Langsung ke konten</a>
+  <header class="site-header" id="site-header">
+    <nav class="container nav" aria-label="Navigasi utama">
+      <a class="logo" href="#beranda" aria-label="Rafi Habibi, kembali ke beranda"><span class="logo-mark">r.</span><span>rafi<span class="logo-secondary">habibi</span></span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#beranda">Home</a><a href="#tentang">About</a><a href="#keahlian">Skills</a><a href="#proyek">Projects</a><a href="#publikasi">Research</a><a href="#perjalanan">Journey</a><a href="#kontak">Contact</a>
+      </div>
+      <div class="nav-tools">
+        <button id="theme-toggle" class="icon-button theme-toggle" type="button" aria-label="Ganti ke mode gelap" title="Ganti tema"><span class="icon-moon" aria-hidden="true">◐</span><span class="icon-sun" aria-hidden="true">☀</span></button>
+        <button id="menu-toggle" class="icon-button menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="konten-utama">
+    <section class="hero container" id="beranda">
+      <div class="hero-copy">
+        <div class="eyebrow status"><span class="status-dot"></span><span id="availability-label">Open to internship opportunities</span></div>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1>Rafi Ahmad<br><span>Habibi.</span></h1>
+        <p class="hero-subhead">Mahasiswa Mekatronika dan Kecerdasan Buatan <span class="separator">/</span> Aspiring AI Engineer</p>
+        <p class="hero-description">Saya mengeksplorasi machine learning, data, dan pengembangan perangkat lunak untuk menciptakan solusi yang praktis dan bermanfaat.</p>
+        <div class="hero-ctas"><a href="#proyek" class="btn btn-primary">Lihat Proyek <span>↗</span></a><button id="download-cv" class="btn btn-outline" type="button" disabled title="CV belum tersedia">Download CV <span>↓</span></button></div>
+        <div class="hero-meta"><span>⌖ Jakarta Timur, Indonesia</span><a href="mailto:rafihabibie16@gmail.com">↗ rafihabibie16@gmail.com</a></div>
+      </div>
+      <!-- Foto memenuhi panel kanan, tanpa kartu biru dan elemen melayang. -->
+      <div class="hero-art" aria-label="Potret profesional Rafi Ahmad Habibi">
+        <div class="hero-photo-frame">
+          <div class="hero-monogram" id="profile-avatar">RA</div>
+          <span class="hero-photo-accent" aria-hidden="true"></span>
+        </div>
+        <div class="hero-photo-caption">
+          <div>
+            <span class="hero-caption-kicker">01 / THE PERSON</span>
+            <strong>Rafi Ahmad Habibi</strong>
+          </div>
+          <span class="hero-caption-location">JAKARTA, INDONESIA</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights-wrap"><div class="container highlights">
+      <div><span class="mini-label">CURRENT STUDY</span><strong>S1 Mechatronics & AI</strong></div>
+      <div><span class="mini-label">ACADEMIC GPA</span><strong>3,78 <span class="soft">/ 4,00</span></strong></div>
+      <div><span class="mini-label">SELECTED WORK</span><strong id="projects-count">5 Projects</strong></div>
+    </div></section>
+
+    <section class="section container" id="tentang">
+      <div class="section-title"><span class="section-index">01 / ABOUT ME</span><h2>More than just<br><em>lines of code.</em></h2><p>Rasa ingin tahu, proses belajar, dan kemauan menyelesaikan masalah membentuk cara saya berkarya.</p></div>
+      <div class="about-layout"><div id="about-text" class="about-text"><p>Saya mahasiswa Mekatronika dan Kecerdasan Buatan dengan minat pada bidang AI dan analisis data.</p></div><aside class="about-aside"><span class="mini-label">WHAT I CARE ABOUT</span><h3>Keep learning.<br>Think critically.<br>Build with purpose.</h3><div class="tags"><span>Machine Learning</span><span>Data Analytics</span><span>Computer Vision</span><span>Problem Solving</span></div></aside></div>
+    </section>
+
+    <section class="section section-tinted" id="keahlian"><div class="container"><div class="section-title split"><div><span class="section-index">02 / MY TOOLKIT</span><h2>Skills & <em>expertise.</em></h2></div><p>Keterampilan yang dipelajari dan digunakan dalam proyek akademik dan eksplorasi mandiri.</p></div><div id="skills-grid" class="skills-grid"></div></div></section>
+
+    <section class="section container" id="proyek"><div class="section-title split"><div><span class="section-index">03 / SELECTED WORK</span><h2>Things I've <em>built.</em></h2></div><p>Klik proyek untuk melihat detail, kontribusi, fitur, teknologi, dan screenshot asli—mulai dari machine learning hingga mekatronika.</p></div><div class="projects-grid" id="projects-grid"></div><div class="more-projects"><p>Masih banyak yang ingin saya pelajari dan bangun.</p><a class="btn btn-outline" href="https://github.com/rafihabibi16" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a></div></section>
+
+    <!-- Publikasi jurnal: informasi kartu otomatis dibaca dari js/data.js -->
+    <section class="section publication-section" id="publikasi">
+      <div class="container">
+        <div class="section-title split">
+          <div><span class="section-index">04 / RESEARCH & PUBLICATIONS</span><h2>Published <em>research.</em></h2></div>
+          <p>Penelitian ilmiah yang saya tulis bersama tim, dipublikasikan di jurnal akademik.</p>
+        </div>
+        <div class="publications-list" id="publications-list"></div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="perjalanan"><div class="container"><div class="section-title"><span class="section-index">05 / THE JOURNEY</span><h2>Experience & <em>education.</em></h2><p>Perjalanan akademik serta kegiatan yang membantu saya berkembang.</p></div><div class="journey-grid"><div><h3 class="column-heading"><span class="column-icon">↗</span> Education</h3><div class="timeline" id="education-timeline"></div></div><div><h3 class="column-heading"><span class="column-icon">✳</span> Activities</h3><div class="timeline" id="experience-timeline"></div></div></div></div></section>
+
+    <section class="section container" id="sertifikasi"><div class="section-title split"><div><span class="section-index">06 / KEEP LEARNING</span><h2>Courses & <em>certificates.</em></h2></div><p>Pelatihan dan kursus yang membantu menambah perspektif dan kemampuan teknis.</p></div><div class="certifications-grid" id="certifications-grid"></div></section>
+
+    <section class="section contact-section" id="kontak"><div class="container contact-grid"><div class="contact-copy"><span class="section-index">07 / SAY HELLO</span><h2>Let's make<br><em>something good.</em></h2><p>Terbuka untuk kesempatan magang, diskusi, dan kolaborasi. Kamu bisa menghubungi saya lewat email atau media profesional.</p><a class="contact-email" href="mailto:rafihabibie16@gmail.com">rafihabibie16@gmail.com ↗</a><p class="contact-location">⌖ Jakarta Timur, Indonesia</p><div class="contact-social"><a href="https://github.com/rafihabibi16" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/rafi-ahmad-habibi-b07383313/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><form class="contact-form" id="contact-form"><h3>Send a message</h3><label for="contact-name">Nama lengkap</label><input id="contact-name" name="name" autocomplete="name" placeholder="Nama Anda" required maxlength="100"><label for="contact-email">Email</label><input id="contact-email" name="email" autocomplete="email" type="email" placeholder="nama@email.com" required maxlength="150"><label for="contact-message">Pesan</label><textarea id="contact-message" name="message" rows="5" placeholder="Tulis pesan Anda..." required maxlength="3000"></textarea><button class="btn btn-primary btn-full" type="submit">Buka Aplikasi Email <span>↗</span></button><p class="form-note">Form membuka aplikasi email kamu; tidak menyimpan atau mengirim data secara otomatis.</p><p id="form-status" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-top"><a class="logo" href="#beranda"><span class="logo-mark">r.</span><span>rafi<span class="logo-secondary">habibi</span></span></a><a href="#beranda">Back to top ↑</a></div><div class="footer-bottom"><p>© <span id="current-year">2026</span> Rafi Ahmad Habibi. Built with care.</p><p>Learning, building, improving.</p></div></div></footer>
+
+  <!-- Dialog detail: buka dengan klik kartu proyek, judul, atau tombol detail. -->
+  <dialog class="project-detail-dialog" id="project-dialog" aria-labelledby="project-detail-title">
+    <div class="project-detail-inner">
+      <header class="project-detail-header">
+        <div>
+          <p class="mini-label" id="project-detail-category">PROJECT DETAILS</p>
+          <h2 id="project-detail-title">Detail Proyek</h2>
+          <p id="project-detail-subtitle" class="project-detail-subtitle"></p>
+          <p id="project-detail-meta" class="project-detail-meta" hidden></p>
+        </div>
+        <button type="button" class="icon-button project-detail-close" id="project-detail-close" aria-label="Tutup detail proyek">✕</button>
+      </header>
+      <!-- Slideshow langsung di detail proyek. Tombol dan jumlah slide otomatis dari data.js. -->
+      <div class="project-detail-slideshow" id="project-detail-slideshow">
+        <div class="project-detail-cover" id="project-detail-cover">
+          <img id="project-detail-image" alt="" width="1200" height="750">
+          <button type="button" class="detail-slide-arrow detail-slide-prev" id="project-detail-prev" aria-label="Foto proyek sebelumnya">‹</button>
+          <button type="button" class="detail-slide-arrow detail-slide-next" id="project-detail-next" aria-label="Foto proyek berikutnya">›</button>
+        </div>
+        <div class="project-detail-slide-footer">
+          <p id="project-detail-caption" aria-live="polite"></p>
+          <div class="project-detail-slide-controls">
+            <div class="project-detail-dots" id="project-detail-dots" aria-label="Pilih foto proyek"></div>
+            <span class="project-detail-counter" id="project-detail-counter"></span>
+            <button type="button" id="project-detail-enlarge" class="detail-enlarge">Perbesar ↗</button>
+          </div>
+        </div>
+      </div>
+      <div class="project-detail-layout">
+        <div class="project-detail-primary">
+          <section aria-labelledby="project-description-heading" class="detail-section">
+            <h3 id="project-description-heading">Tentang proyek</h3>
+            <p id="project-detail-description"></p>
+          </section>
+          <section aria-labelledby="project-contributions-heading" class="detail-section">
+            <h3 id="project-contributions-heading">Kontribusi Saya</h3>
+            <p id="project-detail-role" class="project-role"></p>
+            <ul id="project-detail-contributions" class="project-detail-bullets"></ul>
+            <p id="project-detail-contributions-empty" class="contribution-placeholder" hidden>Kontribusi pribadi belum diperinci. Tambahkan pekerjaan yang benar-benar kamu lakukan di <code>js/data.js</code>, pada bagian <code>contributions</code>.</p>
+          </section>
+          <section aria-labelledby="project-features-heading" class="detail-section">
+            <h3 id="project-features-heading">Fitur &amp; Cakupan Proyek</h3>
+            <ul id="project-detail-features" class="project-detail-bullets"></ul>
+          </section>
+        </div>
+        <aside class="project-detail-aside" aria-label="Teknologi dan tautan proyek">
+          <div class="detail-aside-block"><h3 id="project-detail-stack-label">Tech Stack</h3><div id="project-detail-tech" class="project-tech"></div></div>
+          <div class="detail-aside-block"><h3>Explore Project</h3><div id="project-detail-links" class="project-detail-links"></div></div>
+          <p class="project-detail-hint">Tekan Esc atau tombol ✕ untuk kembali ke daftar proyek.</p>
+        </aside>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Modal galeri screenshot asli dari proyek -->
+  <dialog class="gallery-dialog" id="gallery-dialog" aria-labelledby="gallery-title">
+    <div class="gallery-header"><div><p class="mini-label">PROJECT SCREENSHOTS</p><h3 id="gallery-title">Project gallery</h3></div><button class="icon-button gallery-close" id="gallery-close" type="button" aria-label="Tutup galeri">✕</button></div>
+    <div class="gallery-stage"><button class="gallery-arrow" id="gallery-prev" type="button" aria-label="Gambar sebelumnya">‹</button><img id="gallery-image" alt="" width="1200" height="750"><button class="gallery-arrow" id="gallery-next" type="button" aria-label="Gambar berikutnya">›</button></div>
+    <div class="gallery-footer"><p id="gallery-caption"></p><span id="gallery-counter"></span></div>
+  </dialog>
+  <noscript><p class="noscript">Aktifkan JavaScript untuk menampilkan kartu proyek, skills, dan pengalaman.</p></noscript>
+</body>
+</html>
