@@ -241,9 +241,87 @@ window.portfolioData = {
       gallery: [
         { src: 'assets/images/running-led.webp', caption: 'Foto asli prototipe running LED petunjuk arah jalan' }
       ],
+      
       year: null,
       theme: 'amber',
       portrait: true
+    },
+
+    // =====================================
+    // PROJECT 5 — POTS
+    // =====================================
+    {
+      id: 'pots',
+
+      role: 'Electrical Wiring & ESP32 Programming',
+
+      contributions: [
+        'Bertanggung jawab dalam electrical wiring dan integrasi komponen elektronika pada prototipe POTS.',
+        'Melakukan pengkabelan dan integrasi ESP32 dengan soil moisture sensor, DHT11, water level sensor, modul relay, dan mini water pump.',
+        'Mengembangkan pemrograman ESP32 untuk pembacaan data sensor dan pengendalian aktuator penyiraman.',
+        'Mendukung integrasi perangkat keras dan perangkat lunak pada sistem monitoring dan penyiraman tanaman.'
+      ],
+
+      title: 'POTS — Plant Oriented Thinking System',
+
+      subtitle: 'Smart Plant Monitoring & Remote Watering System',
+
+      category: 'Internet of Things · Embedded Systems',
+
+      description: 'Plant Oriented Thinking System (POTS) merupakan sistem monitoring dan penyiraman tanaman berbasis Internet of Things (IoT). Sistem menggunakan ESP32 yang terintegrasi dengan berbagai sensor untuk memantau kondisi tanaman serta mendukung pengendalian penyiraman jarak jauh melalui Arduino Cloud. Proyek ini dikembangkan bersama tim Internet Thinking dan meraih Juara 2 dalam kompetisi IoT TechnoCorner.',
+
+      highlights: [
+        'Monitoring kelembapan tanah menggunakan soil moisture sensor.',
+        'Pemantauan suhu dan kelembapan udara menggunakan DHT11.',
+        'Monitoring ketinggian air menggunakan water level sensor.',
+        'Pengendalian pompa air melalui modul relay.',
+        'Monitoring data dan kontrol penyiraman melalui Arduino Cloud.',
+        'Meraih Juara 2 kompetisi IoT TechnoCorner bersama tim Internet Thinking.'
+      ],
+
+      technologies: [
+        'ESP32',
+        'Arduino IDE',
+        'Arduino Cloud',
+        'Internet of Things',
+        'Electrical Wiring',
+        'Sensor Integration'
+      ],
+
+      github: null,
+      demo: null,
+
+      // Foto utama kartu proyek
+      image: 'assets/images/POTS_Lampiran_Dokumentasi_3.png',
+
+      imageAlt: 'Dokumentasi prototipe fisik POTS',
+
+      // Galeri foto ketika kartu proyek diklik
+      gallery: [
+        {
+          src: 'assets/images/POTS_Lampiran_Dokumentasi_3m,.png',
+          caption: '01 / Dokumentasi Prototipe Fisik POTS'
+        },
+        {
+          src: 'assets/images/pots-skematik-rangkaian.png',
+          caption: '02 / Electrical Wiring & Circuit Schematic'
+        },
+        {
+          src: 'assets/images/pots-diagram-blok.jpg',
+          caption: '03 / System Block Diagram'
+        },
+        {
+          src: 'assets/images/pots-dashboard-ui.png',
+          caption: '04 / IoT Dashboard Interface'
+        },
+        {
+          src: 'assets/images/pots-sketsa-alat.jpg',
+          caption: '05 / Initial System Design'
+        }
+      ],
+
+      year: '2025',
+      theme: 'green'
     }
   ],
 
@@ -289,29 +367,64 @@ window.portfolioData = {
     }
   ],
 
+  
+  // ==========================================
+  // LEADERSHIP, ACTIVITIES & ACHIEVEMENTS
+  // ==========================================
+
   experiences: [
+
+    // 1. Project Leader AGAVI
     {
       title: 'Project Leader — Food Safety Consultation Platform',
-      place: 'Universitas Pendidikan Indonesia × PT Agritama Sinergi Inovasi (AGAVI)',
-      period: '2026 — Sekarang',
-      description: 'Mengkoordinasikan tim 4 orang, komunikasi stakeholder, requirement gathering, perencanaan fitur, pembagian tugas, timeline, dan administrasi kerja sama untuk prototipe konsultasi keamanan pangan yang masih dikembangkan.',
-      meta: 'Industry Collaboration · In Progress'
+      place: 'Universitas Pendidikan Indonesia × PT AGAVI',
+      period: '2026 — Present',
+
+      description:
+        'Memimpin tim beranggotakan 4 orang dalam proyek kolaborasi industri bersama PT Agritama Sinergi Inovasi (AGAVI). Bertanggung jawab dalam koordinasi tim, komunikasi stakeholder, requirement gathering, perencanaan sistem, pembagian tugas, dan monitoring perkembangan proyek.',
+
+      meta: 'Leadership · Industry Collaboration'
     },
+
+    // 2. KJMU Purwakarta Coordinator
     {
-      title: 'Kepanitiaan Kegiatan Kampus',
-      place: 'Kegiatan kampus — nama kegiatan belum dicantumkan',
-      period: 'Periode belum dicantumkan',
-      description: 'Terlibat dalam kegiatan kepanitiaan kampus. Nama kegiatan, peran, dan kontribusi spesifik dapat ditambahkan di sini.',
-      meta: null
+      title: 'KJMU Purwakarta Coordinator',
+      place: 'KJMU Student Community — Purwakarta',
+      period: '2025 - 2026',
+
+      description:
+        'Berperan sebagai koordinator komunitas penerima KJMU wilayah Purwakarta yang mencakup lebih dari 25 penerima. Mendukung koordinasi anggota, komunikasi internal, serta penyampaian informasi dan kebutuhan komunitas.',
+
+      meta: 'Leadership · 25+ Recipients'
     },
+
+    // 3. SLK Logistics Committee
     {
-      title: 'Pengabdian Masyarakat',
-      place: 'Kegiatan pengabdian — detail belum dicantumkan',
-      period: 'Periode belum dicantumkan',
-      description: 'Berpartisipasi dalam kegiatan pengabdian masyarakat. Detail program, tanggung jawab, dan hasil kegiatan dapat ditambahkan.',
-      meta: null
+      title: 'Logistics Committee — SLK',
+      place: 'Campus Legislative Seminar',
+
+      period: '2025',
+
+      description:
+        'Berkontribusi sebagai anggota divisi logistik dalam kegiatan Seminar Legislatif Kampus (SLK) yang dihadiri lebih dari 100 peserta. Mendukung persiapan perlengkapan, kebutuhan teknis, dan koordinasi logistik untuk kelancaran kegiatan.',
+
+      meta: 'Committee · 100+ Attendees'
+    },
+
+    // 4. Achievement — IoT TechnoCorner
+    {
+      title: '2nd Place — IoT TechnoCorner Competition',
+      place: 'Internet Thinking Team · POTS',
+      period: '2025',
+
+      description:
+        'Meraih Juara 2 bersama tim Internet Thinking melalui pengembangan Plant Oriented Thinking System (POTS), sistem monitoring dan penyiraman tanaman berbasis IoT. Berkontribusi dalam electrical wiring, integrasi komponen elektronika, serta pemrograman ESP32.',
+
+      meta: 'Achievement · 2nd Place'
     }
+
   ],
+
 
   certifications: [
     { title: 'Overview of AI', issuer: 'HUAWEI ICE ACADEMY', year: null, credentialUrl: null },
